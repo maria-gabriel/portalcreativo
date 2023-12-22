@@ -10337,6 +10337,7 @@ ul li,ol li {
 
 .footer .footer-title {
   color: #fff;
+  text-align: right;
   font-size: 1.3rem;
   font-family: "Bernard MT Condensed Regular",serif,-apple-system;
   font-weight: bold;
@@ -10661,10 +10662,11 @@ ul li,ol li {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: .025em;
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
   -webkit-transition: all .15s ease;
-  transition: all .15s ease
+  transition: all .15s ease;
+  cursor: pointer;
 }
 
 .button:hover {
@@ -11056,8 +11058,6 @@ ul li,ol li {
 }
 
 .feature-title{
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
   color: var(--bs-link-color);
 }
 
@@ -11096,6 +11096,11 @@ ul li,ol li {
 
 .social a:hover {
   opacity: .8
+}
+
+.team-name{
+  font-family: "Poppins", sans-serif;
+  color: var(--bs-link-color);
 }
 
 .page-teams .team-summary {
@@ -11163,6 +11168,10 @@ ul li,ol li {
   margin-bottom: 40px;
   font-weight: regular;
   color: #686868
+}
+
+.service-title{
+  color: var(--bs-link-color);
 }
 
 .service-content{
