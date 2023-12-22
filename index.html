@@ -8,465 +8,470 @@
 
   <!-- Google Fonts CDN -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/js/bootstrap.min.js"></script>
   <link href="assets/css/style.css" rel="stylesheet">
   <script src="https://unpkg.com/feather-icons"></script>
 
-<body class="page page-home">
-  <div id="main-menu-mobile" class="main-menu-mobile">
-    <ul>
-      <li class="">
-        <a href="#habilidades">Habilidades</a>
-      </li>
-      <li class="">
-        <a href="#proyectos">Proyectos</a>
-      </li>
-      <li class="">
-        <a href="#tecnologias">Tecnologías</a>
-      </li>
-      <li class="">
-        <a href="#contacto">Contacto</a>
-      </li>
-    </ul>
-  </div>
+<body>
 
-  <div id="inicio" class="wrapper">
-    <div class="header">
-      <div class="container">
-        <div class="logo">
-          <a href="/"><img width="120px" height="32px" alt="Jekyll Serif" src="images/logo/logo.png"></a>
-        </div>
-        <div class="logo-mobile">
-          <a href="/"><img width="32px" height="32px" alt="Jekyll Serif" src="images/logo/logo-mobile.svg"></a>
-        </div>
-        <div id="main-menu" class="main-menu">
-          <ul>
-            <li class="">
-              <a href="#habilidades">Habilidades</a>
+  <div class="nav-bar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo/logo_portal.png" width="300px"/></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Inicio</a>
             </li>
-            <li class="">
-              <a href="#tecnologias">Tecnologías</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#habilidades">Habilidades</a>
             </li>
-            <li class="">
-              <a href="#cursos">Cursos</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
             </li>
-            <li class="">
-              <a href="#contacto">Contacto</a>
+            <li class="nav-item">
+              <a class="nav-link" href="#cursos">Cursos y certificaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
-        </div>
 
-        <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-          </span>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="hero-container" id="home">
+    <div class="container-fluid">
+      <div class="row d-flex full-height">
+        <div class="col align-middle">
+          <div class="px-2 py-2">
+            <img src="images/illustrations/pointing.png" class="img-fluid" alt="...">
+          </div>
+        </div>
+        <div class="col">
+          <div class="px-5 py-5 mt-5">
+            <div class="px-2 py-2 align-middle">
+              <h2 class="title-corbel">Hola! Soy Arely</h2>
+              <p>Bienvenido al lugar donde la innovación y el código se entrelazan. Aquí, cada proyecto cuenta una
+                historia única.</p>
+            </div>
+            <div class="px-2 py-2">
+              <a href="#contacto" class="button">Currículum</a>
+            </div>
+            <div class="card mt-3" style="width: 18rem;">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i data-feather="send" width="20" height="20"></i> mgabriel.ssm@gmail.com
+                </li>
+                <li class="list-group-item"><i data-feather="phone" width="20" height="20"></i> 55-24-50-59-55</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main container -->
+    <div id="habilidades" class="main-container">
+      <div class="bg-ghost">
+        <div class="container">
+          <div class="row d-flex align-items-center full-height">
+            <div class="col-12 col-md-4">
+              <div class="service service-summary">
+                <div class="service-content">
+                  <div class="service-icon"><i data-feather="monitor" width="60" height="60"></i></div>
+                  <h3 class="service-title">
+                    Desarrollo web
+                  </h3>
+                  <p>Como desarrollador web, combino mis conocimientos HTML, CSS y JS para crear interfaces atractivas.
+                    Además, tengo experiencia en el desarrollo de back-end utilizando PHP y frameworks como Laravel,
+                    WordPress y Angular.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="service service-summary">
+                <div class="service-content">
+                  <div class="service-icon"><i data-feather="database" width="60" height="60"></i></div>
+                  <h3 class="service-title">
+                    Bases de datos
+                  </h3>
+                  <p>Como gestor de bases de datos, tengo habilidades en la administración de MySQL, utilizando
+                    herramientas como Workbench, phpMyAdmin y Navicat. Mi experiencia abarca desde el diseño de bases de
+                    datos relacionales hasta la optimización del rendimiento. </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="service service-summary">
+                <div class="service-content">
+                  <div class="service-icon"><i data-feather="folder" width="60" height="60"></i></div>
+                  <h3 class="service-title">
+                    Gestión de proyectos
+                  </h3>
+                  <p>Como gestor de proyectos, he coordinado todas las fases del ciclo de vida de múltiples proyectos
+                    para
+                    garantizar su éxito. Desde la concepción y planificación inicial, hasta la ejecución, control y
+                    cierre, mi enfoque se centra en la entrega oportuna y eficiente de soluciones</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="service service-summary">
+                <div class="service-content">
+                  <div class="service-icon"><i data-feather="smartphone" width="60" height="60"></i></div>
+                  <h3 class="service-title">
+                    Desarrollo móvil
+                  </h3>
+                  <p>Como desarrollador móvil con experiencia en Android Studio y Java, he creado aplicaciónes desde la
+                    creación de interfaces de usuario intuitivas hasta la implementación de funcionalidades como
+                    gestión,
+                    administración, notificación y localización.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="service service-summary">
+                <div class="service-content">
+                  <div class="service-icon"><i data-feather="pen-tool" width="60" height="60"></i></div>
+                  <h3 class="service-title">
+                    Diseño gráfico
+                  </h3>
+                  <p>Como diseñador gráfico, me destaco en la creación de elementos visuales utilizando herramientas
+                    como
+                    Photoshop y Adobe Illustrator. Desde la elaboración de logotipos que reflejan la identidad de la
+                    marca
+                    hasta la generación de elementos gráficos.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="service service-summary">
+                <div class="service-content">
+                  <div class="service-icon"><i data-feather="tool" width="60" height="60"></i></div>
+                  <h3 class="service-title">
+                    Mantenimiento de código
+                  </h3>
+                  <p>Como profesional en mantenimiento de código, me especializo en optimizar y mejorar la calidad de
+                    los
+                    proyectos existentes. Mi enfoque implica revisar y actualizar el código para garantizar su
+                    eficiencia,
+                    legibilidad y cumplimiento de las mejores prácticas de programación. </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--  Card container  -->
+  <div id="proyectos" class="card-container bg-black">
+    <div class="container-fluid px-3 py-3">
+      <div class="row center text-white">
+        <h2>Proyectos destacados</h2>
+      </div>
+      <div class="card bg-black text-white shadow-lg ">
+        <!-- <h5 class="card-header">Featured Courses</h5> -->
+        <div class="card-body">
+          <div class="conatiner">
+            <div class="row d-flex justify-content-around">
+              <div class="col">
+                <div class="card text-black move-up mb-3">
+                  <div class="card-header">Desarrollo web</div>
+                  <div class="card-body">
+                    <h5 class="card-title">FoodLab</h5>
+                    <p class="card-text">Desarrollé en colaboración con otro programador, un sistema de comandas para un restaurante bar, en el cuál los meseros podían registrar las órdenes de los clientes para llevar un seguimiento para el área de comida y la barra de bebidas</p>
+                      <img width="40" height="40" class="img-fluid mb-2" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png">
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card text-black move-up mb-3">
+                  <div class="card-header">Web3.0</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Web3 and Tools</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card text-black move-up mb-3">
+                  <div class="card-header">Java Masterclass</div>
+                  <div class="card-body">
+                    <h5 class="card-title">Begineer Course</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card text-black move-up mb-3">
+                  <div class="card-header">Python </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Python AI</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                      card's content.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="cursos" class="testimonals-container mt-4 mb-4">
+    <div class="container-fluid">
+      <div class="row center mx-4 my-4">
+        <h2>Cursos y certificaciones</h2>
+      </div>
+      <div class="container">
+      <div id="carouselExampleIndicators" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card-group">
+              <div class="card">
+                <img
+                  src="images/features/SFPC.png"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Scrum Foundation Professional Certification SFPC</h5>
+                  <p class="card-text mb-5">Scrum es un marco ligero que ayuda a las personas, equipos y organizaciones a generar valor a través de
+                    soluciones adaptables para problemas complejos.</p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="images/features/FGP.png"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Fundamentos en gestión de proyectos</h5>
+                  <p class="card-text mb-5">
+                    La gestión de proyectos es una disciplina que implica la planificación, ejecución y supervisión de un conjunto de actividades con el objetivo de lograr un resultado específico dentro de un marco de tiempo. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-group">
+              <div class="card">
+                <img
+                  src="images/features/GIT.png"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Curso de Git y Github - Git Profesional</h5>
+                  <p class="card-text mb-5">Abarcando temas como: Teoría y práctica esencial de GIT, comandos básicos (add, commit, pull, push, etc) y comandos avanzados(rebase, cherry-pick, merge).</p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="images/features/SPRING.png"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Spring Framework y Spring Boot desde cero y experto</h5>
+                  <p class="card-text mb-5">Spring Framework y Spring Boot son herramientas poderosas en el mundo del desarrollo de aplicaciones Java, proporcionando un marco sólido y eficiente para construir aplicaciones empresariales modernas.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-group">
+              <div class="card">
+                <img
+                  src="images/features/NODE.png"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Introducción al desarrollo backend con Node.js y Express</h5>
+                  <p class="card-text mb-5">El desarrollo backend con Node.js y Express es una forma eficiente y escalable de construir aplicaciones web. Express es un marco web que simplifica y agiliza el desarrollo de aplicaciones con Node.js. </p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="images/features/REACT.png"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Aprender Ract JS</h5>
+                  <p class="card-text mb-5">Abarcando temas como: Teoría y práctica esencial de GIT, comandos básicos (add, commit, pull, push, etc) y comandos avanzados(rebase, cherry-pick, merge).</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card-group">
+              <div class="card">
+                <img
+                  src="images/features/NODEjs.png"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">La biblia de Node.js</h5>
+                  <p class="card-text mb-5">Node.js es un entorno de ejecución de JavaScript del lado del servidor. Permite ejecutar JavaScript fuera de un navegador, lo que facilita la creación de aplicaciones del lado del servidor. </p>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="images/features/BD.png"
+                  class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Curso básico de Bases de datos MySQL con Linux</h5>
+                  <p class="card-text mb-5">Las bases de datos son sistemas estructurados para almacenar, organizar y recuperar datos de manera eficiente. En el contexto del desarrollo, las bases de datos desempeñan un papel crucial al alojar y gestionar información</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
         </button>
       </div>
-    </div>
-
-    <div class="intro">
-      <div class="container">
-        <div class="row justify-content-start">
-          <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
-            <h1 id="serif---a-jekyll-business-theme">Hola! Soy Arely</h1>
-            <p>Bienvenido al lugar donde la innovación y el código se entrelazan. Aquí, cada proyecto cuenta una
-              historia única.</p>
-            <div class="call">
-              <div class="call-box-top">
-                <div class="call-email"><strong>Correo: </strong>
-                  <a href="mailto:mgabriel.ssm@gmail.com">
-                    mgabriel.ssm@gmail.com
-                  </a>
-                </div>
-                <div class="call-email"><strong>Teléfono: </strong>
-                    55 24 50 59 55
-                </div>
-              </div>
-              <div class="call-box-bottom">
-                <a href="#contacto" class="button">Currículum</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-            <img alt="pointing" class="intro-image intro-image-hide-mobile" src="images/illustrations/pointing.png">
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="habilidades" class="strip strip-grey">
-      <div class="container pt-6 pb-6 pb-md-10">
-        <div class="row justify-content-start">
-
-          <div class="col-12 col-md-4 mb-1">
-            <div class="service service-summary">
-              <div class="service-content">
-                <h2 class="service-title">
-                  Desarrollo web
-                </h2>
-                <p>Como desarrollador web, combino mis conocimientos HTML, CSS y JS para crear interfaces atractivas.
-                  Además, tengo experiencia en el desarrollo de back-end utilizando PHP y frameworks como Laravel,
-                  WordPress y Angular.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 mb-1">
-            <div class="service service-summary">
-              <div class="service-content">
-                <h2 class="service-title">
-                  Bases de datos
-                </h2>
-                <p>Como gestor de bases de datos, tengo habilidades en la administración de MySQL, utilizando
-                  herramientas como Workbench, phpMyAdmin y Navicat. Mi experiencia abarca desde el diseño de bases de
-                  datos relacionales hasta la optimización del rendimiento. </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 mb-1">
-            <div class="service service-summary">
-              <div class="service-content">
-                <h2 class="service-title">
-                  Gestión de proyectos
-                </h2>
-                <p>Como gestor de proyectos, he coordinado todas las fases del ciclo de vida de múltiples proyectos para
-                  garantizar su éxito. Desde la concepción y planificación inicial, hasta la ejecución, control y
-                  cierre, mi enfoque se centra en la entrega oportuna y eficiente de soluciones</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 mb-1">
-            <div class="service service-summary">
-              <div class="service-content">
-                <h2 class="service-title">
-                  Desarrollo móvil
-                </h2>
-                <p>Como desarrollador móvil con experiencia en Android Studio y Java, he creado aplicaciónes desde la
-                  creación de interfaces de usuario intuitivas hasta la implementación de funcionalidades como gestión,
-                  administración, notificación y localización.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 mb-1">
-            <div class="service service-summary">
-              <div class="service-content">
-                <h2 class="service-title">
-                  Diseño gráfico
-                </h2>
-                <p>Como diseñador gráfico, me destaco en la creación de elementos visuales utilizando herramientas como
-                  Photoshop y Adobe Illustrator. Desde la elaboración de logotipos que reflejan la identidad de la marca
-                  hasta la generación de elementos gráficos.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 mb-1">
-            <div class="service service-summary">
-              <div class="service-content">
-                <h2 class="service-title">
-                  Mantenimiento de código
-                </h2>
-                <p>Como profesional en mantenimiento de código, me especializo en optimizar y mejorar la calidad de los
-                  proyectos existentes. Mi enfoque implica revisar y actualizar el código para garantizar su eficiencia,
-                  legibilidad y cumplimiento de las mejores prácticas de programación. </p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-
-    <div id="tecnologias" class="strip">
-      <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-        <div class="row">
-
-          <div class="col-12 col-md-4 mb-2">
-            <div class="team team-summary team-summary-large">
-              <div class="team-image">
-                <img width="90" height="90" alt="Peter Van Eijk" class="img-fluid mb-2"
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png">
-              </div>
-              <div class="team-meta">
-                <h2 class="team-name">HTML | HTML5</h2>
-                <p class="team-description">Experiencia: 4 años</p>
-              </div>
-              <div class="team-content">
-                <a target="_blank" href="#" rel="noreferrer">Proyectos</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 mb-2">
-            <div class="team team-summary team-summary-large">
-              <div class="team-image">
-                <img width="90" height="90" alt="Sage Kirk" class="img-fluid mb-2"
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png">
-              </div>
-              <div class="team-meta">
-                <h2 class="team-name">CSS | SCSS</h2>
-                <p class="team-description">Experiencia: 4 años</p>
-              </div>
-              <div class="team-content">
-                <a target="_blank" href="#" rel="noreferrer">Proyectos</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 mb-2">
-            <div class="team team-summary team-summary-large">
-              <div class="team-image">
-                <img width="90" height="90" alt="Sage Kirk" class="img-fluid mb-2"
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png">
-              </div>
-              <div class="team-meta">
-                <h2 class="team-name"> JavaScript</h2>
-                <p class="team-description">Experiencia: 3 años</p>
-              </div>
-              <div class="team-content">
-                <a target="_blank" href="#" rel="noreferrer">Proyectos</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 mb-2">
-            <div class="team team-summary team-summary-large">
-              <div class="team-image">
-                <img width="90" height="90" alt="Sage Kirk" class="img-fluid mb-2"
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/php/php.png">
-              </div>
-              <div class="team-meta">
-                <h2 class="team-name"> PHP</h2>
-                <p class="team-description">Experiencia: 3 años</p>
-              </div>
-              <div class="team-content">
-                <a target="_blank" href="#" rel="noreferrer">Proyectos</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 mb-2">
-            <div class="team team-summary team-summary-large">
-              <div class="team-image">
-                <img width="90" height="90" alt="Sage Kirk" class="img-fluid mb-2"
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png">
-              </div>
-              <div class="team-meta">
-                <h2 class="team-name"> Java</h2>
-                <p class="team-description">Experiencia: 1 año</p>
-              </div>
-              <div class="team-content">
-                <a target="_blank" href="#" rel="noreferrer">Proyectos</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-4 mb-2">
-            <div class="team team-summary team-summary-large">
-              <div class="team-image">
-                <img width="90" height="90" alt="Sage Kirk" class="img-fluid mb-2"
-                  src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sql/sql.png">
-              </div>
-              <div class="team-meta">
-                <h2 class="team-name"> SQL</h2>
-                <p class="team-description">Experiencia: 3 años</p>
-              </div>
-              <div class="team-content">
-                <a target="_blank" href="#" rel="noreferrer">Proyectos</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="cursos" class="strip strip-grey">
-      <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-        <div class="row justify-content-center">
-          <h1 class="title">Cursos y certificaciones</h1>
-          <div class="col-12 col-md-6 col-lg-4 mb-2">
-            <div class="feature">
-              <div class="feature-image"><i data-feather="award" width="50" height="50"></i></div>
-              <h3 class="feature-title">Scrum Foundation Professional Certification SFPC</h3>
-              <div class="col-auto"><a class="button" data-toggle="modal" data-target="#sfpc">
-                  &nbsp;<i data-feather="eye"></i>&nbsp;
-                </a></div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 mb-2">
-            <div class="feature">
-              <div class="feature-image"><i data-feather="award" width="50" height="50"></i></div>
-              <h3 class="feature-title">Fundamentos en gestión de proyectos</h3>
-              <div class="col-auto"><a class="button" data-toggle="modal" data-target="#fgp">
-                &nbsp;<i data-feather="eye"></i>&nbsp;
-              </a></div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-6 col-lg-4 mb-2">
-            <div class="feature">
-              <div class="feature-image"><i data-feather="book" width="50" height="50"></i></div>
-              <h3 class="feature-title">Curso de Git y Github - Git Profesional</h3>
-              <div class="col-auto"><a class="button" data-toggle="modal" data-target="#git">
-                &nbsp;<i data-feather="eye"></i>&nbsp;
-              </a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div id="contacto" class="strip">
-      <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-        <div class="row justify-content-start">
-          <div class="col-12 col-md-8">
-            <div class="service service-single">
-              <h1 class="title">Contacto</h1>
-              <div class="call">
-                <div class="call-box-top">
-                  <div class="call-phone"><strong>Nombre: </strong> Maria Arely Gabriel Romero </div>
-                  <div class="call-phone"><strong>RFC: </strong> GARA980322JI2 </div>
-                  <div class="call-phone"><strong>Edad: </strong> 25 años </div>
-                  <div class="call-phone"><strong>Nivel estudios: </strong> Ingeniería en Informática </div>
-                  <div class="call-phone"><strong>Ciudad: </strong> Cuernavaca, Morelos </div>
-                </div>
-              </div>
-
-              <div class="content mt-4">
-                <p>Disponibilidad:</p>
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Día</th>
-                      <th>Horario</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Lun - Vie </td>
-                      <td>9:00am - 7:00pm</td>
-                    </tr>
-                    <tr>
-                      <td>Sab - Dom</td>
-                      <td>9:00am - 3:00pm</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <iframe src="docs/curriculum.pdf" width="100%" height="100%" title="Ing. Arely Gabriel"
-              frameborder="0"></iframe>
-          </div>
-        </div>
       </div>
     </div>
   </div>
 
-  <div class="sub-footer">
+  <div id="contacto" class="bg-ghost">
     <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="sub-footer-inner">
-            <div class="social">
-              <a href="https://github.com/maria-gabriel" target="blank"><img src="images/social/github.svg"
-                  title="Github" alt="Github"></a>
-              <a href="https://www.linkedin.com/in/maria-arely-gabriel-romero-magr/" target="blank"><img
-                  src="images/social/linkedin.svg" title="Linkedin" alt="Linkedin"></a>
-              <a href="mailto:mariz.magr@gmail.com" target="blank"><img src="images/social/email.svg" title="Email"
-                  alt="Email"></a>
-              <!-- <a href="https://discord.com" target="blank"><img src="images/social/discord.svg" title="Discord"
-                  alt="Discord"></a> -->
-            </div>
-            <div class="copyright">Desarrollador Full Stack</div>
+      <div class="row d-flex align-items-center full-height">
+        <div class="col-12 col-md-6">
+          <div class="service service-single">
+            <h2 class="title-corbel">Contacto</h2>
+              <ul class="list-group mt-2">
+                <li class="list-group-item"><strong>Nombre: </strong> Maria Arely Gabriel Romero </li>
+              </ul>
+              <ul class="list-group mt-2">
+                <li class="list-group-item"><strong>Edad: </strong> 25 años </li>
+              </ul>
+              <ul class="list-group mt-2">
+                <li class="list-group-item"><strong>Nivel estudios: </strong> Ingeniería en Informática </li>
+              </ul>
 
+            <div class="content mt-5">
+              <p>Disponibilidad:</p>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Lun - Vie </td>
+                    <td>9:00am - 7:00pm</td>
+                  </tr>
+                  <tr>
+                    <td>Sab - Dom</td>
+                    <td>9:00am - 3:00pm</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="sfpc" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">CertiProf</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <img src="images/features/SFPC.png" width="100%" />
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
+        <div class="col-6">
+          <iframe src="docs/curriculum.pdf" width="100%" height="90%" title="Ing. Arely Gabriel"
+            frameborder="0"></iframe>
         </div>
       </div>
     </div>
   </div>
+</div>
 
-  <div class="modal fade" id="fgp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">SoyLider</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+  <!-- footer -->
+  <div class="footer-container foot">
+    <div class="container-fluid">
+      <footer>
+        <div class="">
+          <div class="text-center"><i class="fas fa-ellipsis-h"></i></div>
+
+          <div class="row text-center">
+            <div class="col-md-4 box">
+              <span class="copyright quick-links">Copyright &copy; Portal Creativo
+                <script>document.write(new Date().getFullYear())</script>
+              </span>
+            </div>
+            <div class="col-md-4 box">
+              <ul class="list-inline social-buttons">
+                <li class="list-inline-item">
+                  <a href="https://www.linkedin.com/in/maria-arely-gabriel-romero-magr/" target="blank">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="https://github.com/maria-gabriel" target="blank">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="mailto:mariz.magr@gmail.com">
+                    <i class="fa fa-envelope"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-4 box">
+              Desarrollador Full Stack
+            </div>
+          </div>
         </div>
-        <div class="modal-body">
-          <img src="images/features/FGP.png" width="100%" />
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
-        </div>
-      </div>
     </div>
+    </footer>
   </div>
-
-  <div class="modal fade" id="git" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Udemy</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          <img src="images/features/GIT.png" width="100%" />
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-dark" data-dismiss="modal">Cerrar</button>
-        </div>
-      </div>
-    </div>
   </div>
 
   <script>
     feather.replace()
   </script>
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-  <script type="text/javascript" src="/assets/js/scripts.js"></script>
+<script>
+  function mostrarTextoCompleto() {
+      var texto = document.getElementById('foodLabText');
+      var verMas = document.getElementById('verMas');
+      
+      // Si el texto está cortado, lo muestra completo y cambia el texto del botón
+      if (texto.classList.contains('cortado')) {
+          texto.classList.remove('cortado');
+          verMas.innerText = 'Ver menos';
+      } else {
+          // Si el texto está completo, lo corta y cambia el texto del botón
+          texto.classList.add('cortado');
+          verMas.innerText = 'Ver más';
+      }
+  }
+</script>
+
 </body>
 
 </html>
