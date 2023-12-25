@@ -1,3 +1,9 @@
-theme: portal-creativo
+# Site settings
 title: Portal Creativo
-description: Hola, soy Arely
+author:
+  name: Mary Biel
+  email: mariz.magr@gmail.com
+description: "Hola, soy Arely"
+
+# Build settings jekyll/minima 
+remote_theme: jekyll-serif-theme
