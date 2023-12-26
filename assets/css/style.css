@@ -54,10 +54,6 @@ aside {
   background-color: #6c757d;
 }
 
-.social-buttons-circle-dark-grey {
-  background: #1a1d20;
-}
-
 .center {
   text-align: center;
 }
@@ -78,7 +74,7 @@ aside {
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #1a1d20;
+  background-color: var(--bs-dark-color);
   color: white;
   text-align: center;
   top: 75px;
@@ -121,7 +117,6 @@ span.footer-title {
 
 footer {
   padding: 0 0 2rem 0;
-  background-color: #212529;
 }
 
 ul.social-buttons {
@@ -223,4 +218,35 @@ footer .quick-links {
 
 .bg-ghost {
   background-color: ghostwhite;
+}
+
+.card-text {
+  max-height: 100px;
+  margin-bottom: 0px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: max-height 0.3s ease-out; 
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.expanded {
+  max-height: none;
+  text-overflow: initial;
+}
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
