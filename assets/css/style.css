@@ -164,6 +164,26 @@ footer .quick-links {
 
 /** My Style **/
 
+@media (min-width: 768px) {
+  .full-height {
+   height: 100%;
+  }
+
+  .logo{
+    width: 300px;
+  }
+}
+
+@media (max-width: 767px) {
+  .full-height {
+    padding: 2rem 0 2rem 0;
+   }
+
+  .logo{
+    width: 100px;
+  }
+}
+
 .title-corbel {
   color: var(--bs-primary-color);
   font-family: "Corbel", sans-serif;
@@ -210,10 +230,6 @@ footer .quick-links {
   background-color: var(--bs-dark-color);
   transform: translateY(-1px);
   text-decoration: none;
-}
-
-.full-height {
-  height: 100%;
 }
 
 .bg-ghost {
