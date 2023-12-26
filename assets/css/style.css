@@ -172,6 +172,27 @@ footer .quick-links {
   .logo{
     width: 300px;
   }
+
+  @keyframes bombeo {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+  
+  svg {
+    animation: filter-animation 2s infinite;
+  }
+  
+  @keyframes filter-animation {
+    0% {color: rgb(123, 31, 162); }
+    33% { color: rgb(103, 58, 183); }
+    66% { color: var(--bs-primary-color); }
+    100% { color: rgb(123, 31, 162);  }
+  }
+  
 }
 
 @media (max-width: 767px) {
@@ -269,24 +290,4 @@ footer .quick-links {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   animation: bombeo 2s infinite;
-}
-
-@keyframes bombeo {
-  0%, 100% {
-    transform: scale(1);
-  }
-  50% {
-    transform: scale(1.2);
-  }
-}
-
-svg {
-  animation: filter-animation 2s infinite;
-}
-
-@keyframes filter-animation {
-  0% {color: rgb(123, 31, 162); }
-  33% { color: rgb(103, 58, 183); }
-  66% { color: var(--bs-primary-color); }
-  100% { color: rgb(123, 31, 162);  }
 }
