@@ -220,7 +220,7 @@ footer .quick-links {
 
 .service-icon{
   text-align: center;
-  color: var(--bs-dark-color);
+  color: var(--bs-primary-color);
   position: relative;
   overflow: hidden;
 }
